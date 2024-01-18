@@ -15,7 +15,7 @@ public class UseConnect {
 
     // 建立mysql链接
     public static Connection createConnection() throws SQLException {
-        return (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/learn_db?characterEncoding=utf8", "root", "preview");
+        return (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/homework?characterEncoding=utf8", "root", "preview");
     }
 
     public static boolean verify(Connection conn) throws SQLException, IOException {
